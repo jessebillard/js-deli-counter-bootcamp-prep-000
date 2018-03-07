@@ -40,9 +40,9 @@ function currentLine(line) {
      var comma = []
      comma.push(`${(i + 1)}. ${line[i]}`)
     }
-     return (message + comma.join(', '))
+     
     
-  } 
+  } return (message + comma.join(', '))
 } 
 
 
