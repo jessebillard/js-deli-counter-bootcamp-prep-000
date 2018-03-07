@@ -35,9 +35,10 @@ function currentLine(line) {
   }
 
   else if (fullLine.length > 0) {
+    var comma = []
     var message = 'The line is currently: '
     for(let i = 0; i < line.length; i++) {
-     var comma = []
+     
      comma.push(`${(i + 1)}. ${line[i]}`)
     }
      
